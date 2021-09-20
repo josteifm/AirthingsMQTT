@@ -1,13 +1,16 @@
-Airthing MQTT Bridge via an ESP32
+Airthings Wave Plus MQTT Bridge via an ESP32
 ==========
 
 * Author: Stephen Beechen 
 * Copyright (C) 2019 Stephen Beechen.
 * Released under the MIT license.
+* Forked by Jostein Malde
 
  An ESP32 arduino sketch that searches for a compatible Airthings device and publishes the radon level, temperature, and humidity to an MQTT server.
 
  The sketch was created with the intention to allow Airthings devices to cheaply integrate with Home Assistant.
+ 
+ This version is modified to work with Airthings Wave Plus
 
 How to Use
 ----------
